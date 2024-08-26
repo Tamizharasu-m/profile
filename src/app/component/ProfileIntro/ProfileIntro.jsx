@@ -10,10 +10,10 @@ function ProfileIntro() {
       </div>
       <div className="md:flex w-[100%] md:items-center px-[15px] md:px-[25px] lg:px-[100px] relative top-[80px] lg:top-[130px]">
         <div className="lg:w-[50%]">
-          <h2 className="text-[46px] mb-[20px] lg:text-[60px]">
+          <h2 className="text-[46px] mb-[20px] lg:text-[60px] text-white">
             Front-End React <br></br> Developer
           </h2>
-          <p className="text-[14px] leading-[23px] mb-[20px] lg:text-[18px] lg:mb-[40px] text-justify lg:leading-[30px]">
+          <p className="text-[14px] leading-[23px] mb-[20px] lg:text-[18px] lg:mb-[40px] text-justify lg:leading-[30px]  text-white">
             Hi, I am Tamizharasu. A passionate Front-End React Developer.
             <br></br>
             Developer based in Tamilnadu, India.
