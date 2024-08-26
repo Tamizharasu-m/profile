@@ -23,8 +23,8 @@ function Skill() {
         ease: "power3.out",
         scrollTrigger: {
           trigger: textRef.current,
-          start: "top 90%",
-          end: "bottom 10%",
+          start: "top 80%",
+          end: "bottom 40%",
           scrub: true,
         },
       }
@@ -42,8 +42,8 @@ function Skill() {
         ease: "power3.out",
         scrollTrigger: {
           trigger: textRef1.current,
-          start: "top 90%",
-          end: "bottom 10%",
+          start: "top 80%",
+          end: "bottom 40%",
           scrub: true,
         },
       }
@@ -61,8 +61,8 @@ function Skill() {
         ease: "power3.out",
         scrollTrigger: {
           trigger: textRef2.current,
-          start: "top 90%",
-          end: "bottom 10%",
+          start: "top 80%",
+          end: "bottom 40%",
           scrub: true,
         },
       }
