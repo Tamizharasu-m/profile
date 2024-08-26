@@ -30,7 +30,7 @@ function Contact() {
             height={500}
             className="w-[20px] h-[20px] mr-[10px] "
           />
-          <h6 className=" text-white">phone</h6>
+          <h6 className=" text-white">Phone</h6>
         </div>
         <p className="text-[14px] leading-[23px] mb-[20px] lg:text-[18px] lg:mb-[40px] text-center lg:leading-[30px]  text-white">
           9361366518
