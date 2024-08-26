@@ -8,7 +8,7 @@ function ProfileIntro() {
       <div className="sticky top-[30px] left-0 right-0 z-[999]">
         <Header />
       </div>
-      <div className="md:flex w-[100%] md:items-center px-[15px] md:px-[25px] lg:px-[100px] relative top-[90px] lg:top-[130px]">
+      <div className="md:flex w-[100%] md:items-center px-[15px] md:px-[25px] lg:px-[100px] relative top-[50px] lg:top-[130px]">
         <div className="lg:w-[50%]">
           <h2 className="text-[46px] mb-[20px] lg:text-[60px]">
             Front-End React <br></br> Developer
@@ -63,7 +63,7 @@ function ProfileIntro() {
             />
           </div>
         </div>
-        <div className="flex justify-center lg:w-[50%] py-[20px] lg:py-[0px]">
+        <div className="flex justify-center lg:w-[50%] pt-[20px] pb-[70px] lg:py-[0px]">
           <Image
             src={"/Image/9.webp"}
             width={500}
