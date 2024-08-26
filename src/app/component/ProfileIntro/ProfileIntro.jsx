@@ -4,11 +4,11 @@ import Header from "@/app/Header/Header";
 
 function ProfileIntro() {
   return (
-    <div className="md:h-[100vh]">
-        <div>
+    <div className="md:h-[100vh] relative">
+        <div className="absolute top-[30px] left-0 right-0">
             <Header/>
         </div>
-        <div className="md:flex w-[100%] md:items-center px-[15px] md:px-[25px] lg:px-[100px] lg:pt-[100px]">
+        <div className="md:flex w-[100%] md:items-center px-[15px] md:px-[25px] lg:px-[100px] lg:pt-[140px]">
       <div className="lg:w-[50%]">
         <h2 className="text-[46px] mb-[20px] lg:text-[60px]">Front-End React <br></br> Developer</h2>
         <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify">
@@ -61,12 +61,12 @@ function ProfileIntro() {
             />
         </div>
       </div>
-      <div className="flex justify-center lg:w-[50%]">
+      <div className="flex justify-center lg:w-[50%] py-[40px] lg:py-[0px]">
         <Image
         src={"/Image/9.webp"}
         width={500}
         height={500}
-        className="w-[80%] h-[auto] md:w-[60%] lg:ml-[60px]"
+        className="w-[80%] h-[50%] md:w-[60%] lg:ml-[60px]"
         />
       </div>
       </div>

@@ -4,7 +4,7 @@ import Image from "next/image";
 function Header() {
   return (
     <div className="px-[15px] md:px-[25px] lg:px-[100px]">
-      <div className="flex justify-between items-center bg-gradient-to-r from-cyan-500 to-blue-500 px-[10px] py-[6px] md:px-[20px] md:py-[0px] rounded-[15px] w-[100%] mt-[15px] md:mt-[20px]">
+      <div className="flex justify-between items-center bg-gradient-to-r from-cyan-500 to-blue-500 px-[10px] py-[6px] md:px-[20px] md:py-[0px] rounded-[15px] w-[100%]">
         <div>
           <h2 className="text-[26px] font-bold md:text-[38px]  tracking-wide text-white">
             Developer
