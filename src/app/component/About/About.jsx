@@ -11,8 +11,6 @@ function About() {
   const textRef = useRef(null);
   const textRef1 = useRef(null);
   const textRef2 = useRef(null);
-
-
   const fontRef = useRef(null);
 
   useEffect(() => {
