@@ -11,8 +11,8 @@ function ProfileIntro() {
         <div className="md:flex w-[100%] md:items-center px-[15px] md:px-[25px] lg:px-[100px] lg:pt-[100px]">
       <div className="lg:w-[50%]">
         <h2 className="text-[46px] mb-[20px] lg:text-[60px]">Front-End React <br></br> Developer</h2>
-        <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px]">
-          Hi, I am Tamizharasu. A passionate Front-End React
+        <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify">
+          Hi, I am Tamizharasu. A passionate Front-End React Developer.
           <br></br>
           Developer based in Tamilnadu, India.
         </p>
