@@ -61,7 +61,7 @@ function ProfileIntro() {
             />
         </div>
       </div>
-      <div className="flex justify-center lg:w-[50%] py-[40px] lg:py-[0px]">
+      <div className="flex justify-center lg:w-[50%] py-[20px] lg:py-[0px]">
         <Image
         src={"/Image/9.webp"}
         width={500}
