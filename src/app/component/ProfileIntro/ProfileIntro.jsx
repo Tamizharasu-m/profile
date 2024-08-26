@@ -5,7 +5,7 @@ import Header from "@/app/Header/Header";
 function ProfileIntro() {
   return (
     <div className="md:h-[100vh] relative ">
-      <div className="sticky top-[30px] left-0 right-0 z-[999]">
+      <div className="fixed top-[30px] left-0 right-0 z-[999]">
         <Header />
       </div>
       <div className="md:flex w-[100%] md:items-center px-[15px] md:px-[25px] lg:px-[100px] relative top-[50px] lg:top-[130px]">
