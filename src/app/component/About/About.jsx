@@ -5,14 +5,26 @@ function About() {
   return (
     <div className="lg:h-[100vh] md:flex md:items-center w-[100%] py-[40px] px-[15px] md:px-[30px] lg:px-[100px]">
       <div className="md:w-[50%] hidden md:block ">
-        <Image src={"/Image/10.webp"} width={500} height={500} className="w-[]" />
+        <Image
+          src={"/Image/10.webp"}
+          width={500}
+          height={500}
+          className="w-[]"
+        />
       </div>
       <div className="md:w-[50%]">
         <h6 className="uppercase tracking-wider font-semibold">about me</h6>
-        <h2 className="text-[34px] mb-[20px] lg:text-[60px]">Front-End React Developer
-        based in Tamilnadu, India.</h2>
-        <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">Hii, My name is Tamizharasu, and Im a Frontend Developer. My passion is to create and develop a clean UI/UX.</p>
-        <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">My main stack currently is React/Next.js in combination with Tailwind CSS.</p>
+        <h2 className="text-[34px] mb-[20px] lg:text-[60px]">
+          Front-End React Developer based in Tamilnadu, India.
+        </h2>
+        <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">
+          Hii, My name is Tamizharasu, and Im a Frontend Developer. My passion
+          is to create and develop a clean UI/UX.
+        </p>
+        <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">
+          My main stack currently is React/Next.js in combination with Tailwind
+          CSS.
+        </p>
       </div>
       <div className="md:hidden md:w-[50%] flex justify-center">
         <Image src={"/Image/10.webp"} width={500} height={500} className="" />
