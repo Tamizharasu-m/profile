@@ -11,28 +11,9 @@ function About() {
   const textRef = useRef(null);
   const textRef1 = useRef(null);
   const textRef2 = useRef(null);
-  const fontRef = useRef(null);
+  
 
-  useEffect(() => {
-    const text = fontRef.current;
-    const letters = text.innerText.split("");
-    text.innerHTML = letters.map(letter => letter === ' ' ? '<span>&nbsp;</span>' : `<span style="display: inline-block;">${letter}</span>`).join("");
-
-    gsap.fromTo(text.children, {
-      opacity: 0,
-      y: 50
-    }, {
-      opacity: 1,
-      y: 0,
-      stagger: 0.05,
-      scrollTrigger: {
-        trigger: text,
-        start: 'top 80%',
-        end: 'top 20%',
-        scrub: 1
-      }
-    });
-  }, []);
+  
 
 
   useEffect(() => {
