@@ -69,6 +69,9 @@ function Skill() {
     );
   }, []);
 
+
+  
+
   return (
     <div className="lg:h-[100vh] md:flex md:items-center w-[100%] py-[40px] px-[15px] md:px-[30px] lg:px-[100px]">
       <div className="md:w-[50%]">

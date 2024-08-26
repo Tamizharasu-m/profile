@@ -1,13 +1,38 @@
-
+"use client"
 import React from "react";
 import Image from "next/image";
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
+gsap.registerPlugin(ScrollTrigger);
 
 
 
 function Contact() {
 
- 
+  const textRef = useRef(null);
+
+  useEffect(() => {
+    const text = textRef.current;
+    const letters = text.innerText.split("");
+    text.innerHTML = letters.map(letter => letter === ' ' ? '<span>&nbsp;</span>' : `<span style="display: inline-block;">${letter}</span>`).join("");
+
+    gsap.fromTo(text.children, {
+      opacity: 0,
+      y: 50
+    }, {
+      opacity: 1,
+      y: 0,
+      stagger: 0.05,
+      scrollTrigger: {
+        trigger: text,
+        start: 'top 80%',
+        end: 'top 20%',
+        scrub: 1
+      }
+    });
+  }, []);
 
 
   return (
@@ -16,7 +41,7 @@ function Contact() {
         <Image src={"/Image/12.webp"} width={500} height={500} className="" />
       </div>
       <div className="md:w-[50%]">
-        <h6 className="uppercase tracking-wider font-semibold text-[18px] lg:text-[20px] mb-[15px] text-center  text-white">
+        <h6 ref={textRef} className="uppercase tracking-wider font-semibold text-[18px] lg:text-[20px] mb-[15px] text-center  text-white">
           Contact
         </h6>
         <div  className="flex items-center justify-center  mb-[10px]">
