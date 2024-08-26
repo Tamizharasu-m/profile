@@ -13,7 +13,7 @@ function ProfileIntro() {
           <h2 className="text-[46px] mb-[20px] lg:text-[60px]">
             Front-End React <br></br> Developer
           </h2>
-          <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">
+          <p className="text-[14px] leading-[23px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">
             Hi, I am Tamizharasu. A passionate Front-End React Developer.
             <br></br>
             Developer based in Tamilnadu, India.

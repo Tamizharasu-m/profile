@@ -17,11 +17,11 @@ function About() {
         <h2 className="text-[34px] mb-[20px] lg:text-[60px]">
           Front-End React Developer based in Tamilnadu, India.
         </h2>
-        <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">
+        <p className="text-[14px] leading-[23px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">
           Hii, My name is Tamizharasu, and Im a Frontend Developer. My passion
           is to create and develop a clean UI/UX.
         </p>
-        <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">
+        <p className="text-[14px] leading-[23px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">
           My main stack currently is React/Next.js in combination with Tailwind
           CSS.
         </p>
