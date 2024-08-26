@@ -4,14 +4,14 @@ import Header from "@/app/Header/Header";
 
 function ProfileIntro() {
   return (
-    <div className="md:h-[100vh] relative">
+    <div className="md:h-[100vh] relative ">
         <div className="absolute top-[30px] left-0 right-0">
             <Header/>
         </div>
-        <div className="md:flex w-[100%] md:items-center px-[15px] md:px-[25px] lg:px-[100px] lg:pt-[140px]">
+        <div className="md:flex w-[100%] md:items-center px-[15px] md:px-[25px] lg:px-[100px] relative top-[90px] lg:top-[160px]">
       <div className="lg:w-[50%]">
         <h2 className="text-[46px] mb-[20px] lg:text-[60px]">Front-End React <br></br> Developer</h2>
-        <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify">
+        <p className="text-[16px] leading-[25px] mb-[20px] lg:text-[20px] lg:mb-[40px] text-justify lg:leading-[34px]">
           Hi, I am Tamizharasu. A passionate Front-End React Developer.
           <br></br>
           Developer based in Tamilnadu, India.
