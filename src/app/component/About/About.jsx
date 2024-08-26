@@ -13,7 +13,7 @@ function About() {
         />
       </div>
       <div className="md:w-[50%]">
-        <h6 className="uppercase tracking-wider font-semibold text-[16px] lg:text-[18px]">about me</h6>
+        <h6 className="uppercase tracking-wider font-semibold text-[18px] lg:text-[20px]">about me</h6>
         <h2 className="text-[34px] mb-[20px] lg:text-[60px]">
           Front-End React Developer based in Tamilnadu, India.
         </h2>
