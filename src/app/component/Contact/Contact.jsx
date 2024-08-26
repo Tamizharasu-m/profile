@@ -1,9 +1,7 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import { useEffect, useRef } from 'react';
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -20,7 +18,7 @@ function Contact() {
         <Image src={"/Image/12.webp"} width={500} height={500} className="" />
       </div>
       <div className="md:w-[50%]">
-        <h6 ref={textRef} className="uppercase tracking-wider font-semibold text-[18px] lg:text-[20px] mb-[15px] text-center  text-white">
+        <h6  className="uppercase tracking-wider font-semibold text-[18px] lg:text-[20px] mb-[15px] text-center  text-white">
           Contact
         </h6>
         <div  className="flex items-center justify-center  mb-[10px]">
