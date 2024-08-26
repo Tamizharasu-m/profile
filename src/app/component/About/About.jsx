@@ -11,9 +11,30 @@ function About() {
   const textRef = useRef(null);
   const textRef1 = useRef(null);
   const textRef2 = useRef(null);
-  
 
-  
+
+  const fontRef = useRef(null);
+
+  useEffect(() => {
+    const text = fontRef.current;
+    const letters = text.innerText.split("");
+    text.innerHTML = letters.map(letter => letter === ' ' ? '<span>&nbsp;</span>' : `<span style="display: inline-block;">${letter}</span>`).join("");
+
+    gsap.fromTo(text.children, {
+      opacity: 0,
+      y: 50
+    }, {
+      opacity: 1,
+      y: 0,
+      stagger: 0.05,
+      scrollTrigger: {
+        trigger: text,
+        start: 'top 80%',
+        end: 'top 20%',
+        scrub: 1
+      }
+    });
+  }, []);
 
 
   useEffect(() => {
@@ -85,7 +106,7 @@ function About() {
         />
       </div>
       <div className="md:w-[50%]">
-        <h6 ref={fontRef} className="uppercase tracking-wider font-semibold text-[18px] lg:text-[20px]  text-white">about me</h6>
+        <h6 ref={textRef} className="uppercase tracking-wider font-semibold text-[18px] lg:text-[20px]  text-white">about me</h6>
         <h2 ref={textRef} className="text-[34px] mb-[20px] lg:text-[60px]  text-white">
           Front-End React Developer based in Tamilnadu, India.
         </h2>
